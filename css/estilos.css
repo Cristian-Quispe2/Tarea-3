@@ -1,0 +1,146 @@
+.Padre{
+    background-color: yellow;
+    font-size: 20px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr 9fr 10fr 11fr 12fr;
+    grid-template-rows: 1fr 2fr 3fr 4fr 5fr 10%;
+
+}
+.Padre .caja1{
+    background-color: pink;
+    margin: 5px;
+    grid-row: 1/2;
+    grid-column: 1/8;
+}
+.Padre .caja2{
+    background-color: turquoise;
+    margin: 5px;
+    grid-column: 8/13;
+    grid-row: 1/2;
+}
+.Padre .caja3{
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    grid-column: 1/13;
+    grid-row: 2/3;
+}
+.Padre .caja4{
+    background-color: red;
+    margin: 5px;
+    grid-column: 1/4;
+    grid-row: 3/7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja5{
+    background-color: pink;
+    margin: 5px;
+    grid-column: 4/6;
+    grid-row: 3/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja6{
+    background-color: pink;
+    margin: 5px;
+    grid-column: 6/8;
+    grid-row: 3/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja7{
+    background-color: pink;
+    margin: 5px;
+    grid-column: 4/6;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja8{
+    background-color: pink;
+    margin: 5px;
+    grid-column: 6/8;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja9{
+    background-color: rgb(255, 136, 0);
+    margin: 5px;
+    grid-column: 8/9;
+    grid-row: 3/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja10{
+    background-color: rgb(255, 136, 0);
+    margin: 5px;
+    grid-column: 9/12;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja11{
+    background-color: rgb(255, 136, 0);
+    margin: 5px;
+    grid-column: 9/10;
+    grid-row: 4/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja12{
+    background-color: rgb(255, 136, 0);
+    margin: 5px;
+    grid-column: 10/12;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja13{
+    background-color: rgb(255, 136, 0);
+    margin: 5px;
+    grid-column: 10/11;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja14{
+    background-color: rgb(255, 136, 0);
+    margin: 5px;
+    grid-column: 11/12;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja15{
+    background-color: red;
+    margin: 5px;
+    grid-column: 12/13;
+    grid-row: 3/7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Padre .caja16{
+    background-color: red;
+    margin: 5px;
+    grid-column: 4/12;
+    grid-row: 6/7;
+    text-align: center;
+}
